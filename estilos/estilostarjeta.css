@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(167, 167, 157); /*Color de fondo*/
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex; /*Organixa los hijos de forma flexible*/
+    flex-direction: column; /*Alinea los elementos en columna*/
+    align-items: center; /*Centra los articulos*/
+    gap: 20px; /*espacio entre articulos*/
+}
+
+section article{
+    transition: box-shadow 0.3s ease; /*Aplica una transicion suave de 0.3s */
+    background-color: aliceblue; /*establece el fondo de la seccion*/
+    margin: 16px 0; /*De agrega margen vertical*/
+    border-radius: 8px; /*redondea las esquinas del articulo */
+    padding: 4px 0; /*espacio*/
+    cursor: pointer; /*cambia el estilo del cursor*/
+}
+
+/*El hover es un estilo que se aplica cuando el usuario pasa el cursor sobre el elemento*/
+
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3) /*Aplica estilo sobre el elemento*/
+}
+
+section article h2, section article p{
+    margin: 16px;
+}
+
+footer{
+    background-color: #222;
+    padding: 48px;
+    color: #fff;
+}
+
+footer div{
+    text-align: center;
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3 ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+}
+
+footer a:hover{
+    color: brown;
+}
+
+header{
+    background-color: #222;
+    padding: 1px;
+    align-items: center;
+    text-indent: 200px;
+}
+
