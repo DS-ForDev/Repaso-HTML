@@ -22,7 +22,7 @@ section article{
 /*El hover es un estilo que se aplica cuando el usuario pasa el cursor sobre el elemento*/
 
 section article:hover{
-    box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3) /*Aplica estilo sobre el elemento*/
+    box-shadow: 0 8.6px 50px rgb(26, 27, 26, 0.3) /*Aplica estilo sobre el elemento*/
 }
 
 section article h2, section article p{
