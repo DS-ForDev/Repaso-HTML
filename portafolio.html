@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Diego Forero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionales */
+        .section-dark {
+            background-color: gray;
+            color: white;
+        }
+        .section-gradient {
+            background: rgb(131,58,180);
+            background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+        }
+        .testimonial-carousel img {
+            border-radius: 50%;
+        }
+        #white{
+            color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="logo.png" alt="Logo" width="100"> <!-- Coloca aquí tu logo -->
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                    <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologías</a></li>
+                    <li class="nav-item"><a href="#portafolio" class="nav-link">Portafolio</a></li>
+                    <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-5 section-dark text-center">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <img src="https://via.placeholder.com/150" alt="Foto personal" class="rounded-circle mb-4">
+            <p>Texto de descripción sobre ti, tus habilidades y tu experiencia.</p>
+        </div>
+    </section>
+
+    <!-- Tecnologías -->
+    <section id="tecnologias" class="py-5 section-gradient text-center">
+        <div class="container">
+            <h2 id="white" >Tecnologías que domino</h2>
+            <div class="row justify-content-center">
+                <div class="col-2"><img src="https://via.placeholder.com/100" alt="HTML5" class="img-fluid"></div>
+                <div class="col-2"><img src="https://via.placeholder.com/100" alt="CSS3" class="img-fluid"></div>
+                <div class="col-2"><img src="https://via.placeholder.com/100" alt="JavaScript" class="img-fluid"></div>
+                <div class="col-2"><img src="https://via.placeholder.com/100" alt="React" class="img-fluid"></div>
+                <div class="col-2"><img src="https://via.placeholder.com/100" alt="MySQL" class="img-fluid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="py-5 section-dark text-center">
+        <div class="container">
+            <h2>Mi portafolio de productos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 5</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Proyecto 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 6</h5>
+                            <p class="card-text">Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-5 section-gradient text-center">
+        <div class="container">
+            <h2 id="white" >Testimonios de mis clientes</h2>
+            <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://via.placeholder.com/150" class="testimonial-carousel mb-4" alt="Cliente 1">
+                        <p>"Excelente servicio, muy profesional."</p>
+                        <h5>- Cliente 1</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/150" class="testimonial-carousel mb-4" alt="Cliente 2">
+                        <p>"Gran calidad en los proyectos entregados."</p>
+                        <h5>- Cliente 2</h5>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/150" class="testimonial-carousel mb-4" alt="Cliente 3">
+                        <p>"Muy recomendable, superó mis expectativas."</p>
+                        <h5>- Cliente 3</h5>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 section-dark text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="celular" class="form-label">Número de celular</label>
+                    <input type="tel" class="form-control" id="celular" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   
